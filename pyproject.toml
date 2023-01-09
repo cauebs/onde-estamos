@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "onde-estamos"
+version = "0.1.0"
+description = ""
+authors = ["Cauê Baasch de Souza <cauebs@pm.me>"]
+readme = "README.md"
+packages = [{include = "onde_estamos"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+geopandas = "^0.12.2"
+matplotlib = "^3.6.2"
+streamlit = "^1.16.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.19.4"
+mypy = "^0.991"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
